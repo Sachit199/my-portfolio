@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sachit Singh Rekwal Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+<script src="https://unpkg.com/three@0.154.0/build/three.min.js"></script>
+<script src="https://unpkg.com/three-globe"></script>
+
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+<div class="cursor-glow"></div>
+
+<video autoplay muted loop id="bg-video">
+<source src="background.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+
+<header>
+
+<nav>
+
+<h2 class="logo">Sachit Singh Rekwal</h2>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+
+<section id="home" class="hero">
+
+<h1 class="typing"></h1>
+<p>Developer | Student | Tech Enthusiast</p>
+
+</section>
+
+
+<section class="terminal">
+<pre id="terminal-text"></pre>
+</section>
+
+
+<section class="skills">
+
+<h2>Skills</h2>
+
+<div class="skill">
+<p>HTML</p>
+<div class="bar"><span style="width:90%"></span></div>
+</div>
+
+<div class="skill">
+<p>JavaScript</p>
+<div class="bar"><span style="width:80%"></span></div>
+</div>
+
+<div class="skill">
+<p>Python</p>
+<div class="bar"><span style="width:85%"></span></div>
+</div>
+
+</section>
+
+
+<section id="github">
+
+<h2>GitHub Contribution</h2>
+
+<div class="calendar"></div>
+
+</section>
+
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>I am passionate about technology, coding and building projects.</p>
+
+</section>
+
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project-card">
+<h3>Portfolio Website</h3>
+<p>Personal developer portfolio.</p>
+</div>
+
+<div class="project-card">
+<h3>Calculator App</h3>
+<p>Simple JavaScript calculator.</p>
+</div>
+
+</section>
+
+
+<section id="globe-section">
+
+<h2>3D Globe</h2>
+
+<div id="globe"></div>
+
+</section>
+
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: yourmail@gmail.com</p>
+
+</section>
+
+
+<button onclick="openChat()" class="chat-btn">
+💬 Chat with AI
+</button>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
